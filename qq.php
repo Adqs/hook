@@ -35,7 +35,7 @@ function http_post_json($url, $jsonStr)
 }
 //执行函数提交数据，不返回数据
 //key的值就是你记录的key而n是QQ机器人要发送的消息
-$url = "https://app.qun.qq.com/cgi-bin/api/hookrobot_send?key=".$key;
+$url = "https://app.qun.qq.com/cgi-bin/api/hookrobot_send?key="ebfc00b9b8bb71cfceb6d44a8f9f7cbb7f2a6c2e".$key;
 $jsonStr = "{\"content\": [ {\"type\":0,\"data\":\"".$n."\"}]}";
 $daatfh = http_post_json($url, $jsonStr);
 ?>
